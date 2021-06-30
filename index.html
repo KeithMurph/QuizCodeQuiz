@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+        
+	</head>
+	<body>
+
+		<!-- Nav bar with clickable leaderboard and diplays the dynamic time left -->
+		<div id="nav">
+		
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >Leaderboard</h4></a>
+			</div>
+		
+			<div class="right">
+				<h4 class=timerCss>Time left: <span id="timeLeft">0</span></h4>
+			</div>
+		</div>
+		<!--main body of quiz-->
+		<div id="quiz">
+            <div id="quizBody">      
+                <!-- -->
+                <h1>SUPER COOL QUIZ</h1>
+                <h3>Click to play!</h3>
+                <!-- add onclick to javascript -->
+                <button onclick="start()">Start!</button>
+            </div>
+        </div>
+        <script src = "scripts.js"></script>
+	</body>
+</html>
